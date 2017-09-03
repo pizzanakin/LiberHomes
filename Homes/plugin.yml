@@ -1,0 +1,25 @@
+name: LiberHomes
+main: net.libercraft.liberhomes.Main
+version: 1.0
+commands:
+  home:
+    description: Teleport to the specified home.
+    usage: /h <name>
+  h:
+    description: Teleport to the specified home.
+    usage: /home <name>
+  sethome:
+    description: Set a new home with the specified name at your current location.
+    usage: /sethome <name>
+  changehome:
+    description: Change the specified home to your current location.
+    usage: /changehome <name>
+  delhome:
+    description: Delete the specified home.
+    usage: /delhome <name>
+  homes:
+    description: Look up the names of all your current homes or from a specific player.
+    usage: /homes [player]
+  visit:
+    description: Teleport to the specified player's home.
+    usage: /visit <player> <home>
